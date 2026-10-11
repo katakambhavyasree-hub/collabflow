@@ -1,0 +1,693 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Joshna",
+      "email": "joshna@collabflow.io",
+      "password_hash": "$2a$10$8K1p/a0dL.qYj64hC641p.aF3d32zOeq2sKk0bKz3ZpLp8qP611q.",
+      "role": "Full Stack Engineer & Intern",
+      "avatar_url": null,
+      "created_at": "2026-10-01 09:00:00",
+      "updated_at": "2026-10-07 16:02:47"
+    },
+    {
+      "id": 2,
+      "name": "Rahul Sharma",
+      "email": "rahul@collabflow.io",
+      "password_hash": "$2a$10$8K1p/a0dL.qYj64hC641p.aF3d32zOeq2sKk0bKz3ZpLp8qP611q.",
+      "role": "Technical Lead",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "created_at": "2026-10-01 09:00:00",
+      "updated_at": "2026-10-01 09:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Priya Patel",
+      "email": "priya@collabflow.io",
+      "password_hash": "$2a$10$8K1p/a0dL.qYj64hC641p.aF3d32zOeq2sKk0bKz3ZpLp8qP611q.",
+      "role": "Senior Frontend Engineer",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "created_at": "2026-10-01 09:00:00",
+      "updated_at": "2026-10-01 09:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Arjun Verma",
+      "email": "arjun@collabflow.io",
+      "password_hash": "$2a$10$8K1p/a0dL.qYj64hC641p.aF3d32zOeq2sKk0bKz3ZpLp8qP611q.",
+      "role": "Backend Architect",
+      "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "created_at": "2026-10-01 09:00:00",
+      "updated_at": "2026-10-01 09:00:00"
+    },
+    {
+      "id": 5,
+      "name": "Neha Gupta",
+      "email": "neha@collabflow.io",
+      "password_hash": "$2a$10$8K1p/a0dL.qYj64hC641p.aF3d32zOeq2sKk0bKz3ZpLp8qP611q.",
+      "role": "Product Manager",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "created_at": "2026-10-01 09:00:00",
+      "updated_at": "2026-10-01 09:00:00"
+    },
+    {
+      "id": 6,
+      "name": "Sumanth Reddy",
+      "email": "sumanth@collabflow.io",
+      "password_hash": "$2b$10$fdZ.dnzf27trMwWtBaMtJOd3DxgJ7yfF59OcO0n8sgD3XpsnNCNKC",
+      "role": "DevOps Specialist",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "created_at": "2026-10-07 15:34:47",
+      "updated_at": "2026-10-07 15:34:47"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "description": "Redesign the company website and improve the user experience with modern UI components and responsive layouts.",
+      "status": "Active",
+      "owner_id": 1,
+      "created_at": "2026-10-07 09:00:00",
+      "updated_at": "2026-10-12 16:30:00"
+    },
+    {
+      "id": 2,
+      "name": "Mobile Application",
+      "description": "Cross-platform mobile application for real-time customer engagement and order tracking.",
+      "status": "Active",
+      "owner_id": 2,
+      "created_at": "2026-10-08 10:15:00",
+      "updated_at": "2026-10-12 11:20:00"
+    },
+    {
+      "id": 3,
+      "name": "Customer Management System",
+      "description": "Internal CRM platform to track enterprise leads, service tickets, and customer health metrics.",
+      "status": "Active",
+      "owner_id": 5,
+      "created_at": "2026-10-05 14:00:00",
+      "updated_at": "2026-10-11 18:45:00"
+    },
+    {
+      "id": 4,
+      "name": "API Gateway Modernization",
+      "description": "Refactor backend microservices to leverage rate limiting, JWT token revocation, and centralized logging.",
+      "status": "Planning",
+      "owner_id": 4,
+      "created_at": "2026-10-10 11:00:00",
+      "updated_at": "2026-10-12 14:10:00"
+    },
+    {
+      "id": 5,
+      "name": "web development",
+      "description": "",
+      "status": "Active",
+      "owner_id": 1,
+      "created_at": "2026-10-10 10:38:28",
+      "updated_at": "2026-10-10 10:38:28"
+    }
+  ],
+  "project_members": [
+    {
+      "id": 1,
+      "project_id": 1,
+      "user_id": 1,
+      "role": "Owner",
+      "joined_at": "2026-10-07 09:00:00"
+    },
+    {
+      "id": 2,
+      "project_id": 1,
+      "user_id": 2,
+      "role": "Admin",
+      "joined_at": "2026-10-07 09:15:00"
+    },
+    {
+      "id": 3,
+      "project_id": 1,
+      "user_id": 3,
+      "role": "Member",
+      "joined_at": "2026-10-07 09:30:00"
+    },
+    {
+      "id": 4,
+      "project_id": 1,
+      "user_id": 4,
+      "role": "Member",
+      "joined_at": "2026-10-07 09:45:00"
+    },
+    {
+      "id": 5,
+      "project_id": 1,
+      "user_id": 5,
+      "role": "Member",
+      "joined_at": "2026-10-07 10:00:00"
+    },
+    {
+      "id": 6,
+      "project_id": 2,
+      "user_id": 2,
+      "role": "Owner",
+      "joined_at": "2026-10-08 10:15:00"
+    },
+    {
+      "id": 7,
+      "project_id": 2,
+      "user_id": 1,
+      "role": "Member",
+      "joined_at": "2026-10-08 10:30:00"
+    },
+    {
+      "id": 8,
+      "project_id": 2,
+      "user_id": 3,
+      "role": "Admin",
+      "joined_at": "2026-10-08 10:45:00"
+    },
+    {
+      "id": 9,
+      "project_id": 3,
+      "user_id": 5,
+      "role": "Owner",
+      "joined_at": "2026-10-05 14:00:00"
+    },
+    {
+      "id": 10,
+      "project_id": 3,
+      "user_id": 1,
+      "role": "Member",
+      "joined_at": "2026-10-05 14:15:00"
+    },
+    {
+      "id": 11,
+      "project_id": 3,
+      "user_id": 4,
+      "role": "Admin",
+      "joined_at": "2026-10-05 14:30:00"
+    },
+    {
+      "id": 12,
+      "project_id": 4,
+      "user_id": 4,
+      "role": "Owner",
+      "joined_at": "2026-10-10 11:00:00"
+    },
+    {
+      "id": 13,
+      "project_id": 4,
+      "user_id": 2,
+      "role": "Admin",
+      "joined_at": "2026-10-10 11:15:00"
+    },
+    {
+      "id": 14,
+      "project_id": 5,
+      "user_id": 1,
+      "role": "Owner",
+      "joined_at": "2026-10-10 10:38:28"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "project_id": 1,
+      "title": "Research authentication patterns",
+      "description": "Evaluate session vs JWT token storage mechanisms with refresh rotation for single-page applications.",
+      "status": "Backlog",
+      "priority": "Low",
+      "assigned_to": 4,
+      "created_by": 1,
+      "due_date": "2026-10-22",
+      "labels": "Research, Security",
+      "position": 1,
+      "created_at": "2026-10-07 11:00:00",
+      "updated_at": "2026-10-07 11:00:00"
+    },
+    {
+      "id": 2,
+      "project_id": 1,
+      "title": "Prepare database design",
+      "description": "Define MySQL entity relational schema, indexing strategies, and cascade deletion rules for projects and tasks.",
+      "status": "Backlog",
+      "priority": "Medium",
+      "assigned_to": 1,
+      "created_by": 2,
+      "due_date": "2026-10-20",
+      "labels": "Database, Architecture",
+      "position": 2,
+      "created_at": "2026-10-07 11:30:00",
+      "updated_at": "2026-10-07 11:30:00"
+    },
+    {
+      "id": 3,
+      "project_id": 1,
+      "title": "Design login page",
+      "description": "Create a responsive login and signup interface following minimal design principles with validation error feedback.",
+      "status": "In Progress",
+      "priority": "High",
+      "assigned_to": 1,
+      "created_by": 2,
+      "due_date": "2026-10-15",
+      "labels": "Frontend, Authentication",
+      "position": 1,
+      "created_at": "2026-10-10 10:00:00",
+      "updated_at": "2026-10-07 15:20:36"
+    },
+    {
+      "id": 4,
+      "project_id": 1,
+      "title": "Create registration API",
+      "description": "Build secure POST /api/auth/register endpoint with bcrypt hashing and duplicate email checks.",
+      "status": "To Do",
+      "priority": "High",
+      "assigned_to": 4,
+      "created_by": 1,
+      "due_date": "2026-10-16",
+      "labels": "Backend, Security",
+      "position": 2,
+      "created_at": "2026-10-10 10:15:00",
+      "updated_at": "2026-10-10 10:15:00"
+    },
+    {
+      "id": 5,
+      "project_id": 1,
+      "title": "Create dashboard layout",
+      "description": "Assemble executive summary view with project metric counters and upcoming deadlines list.",
+      "status": "To Do",
+      "priority": "Medium",
+      "assigned_to": 3,
+      "created_by": 5,
+      "due_date": "2026-10-18",
+      "labels": "Frontend, UI",
+      "position": 3,
+      "created_at": "2026-10-10 10:30:00",
+      "updated_at": "2026-10-10 10:30:00"
+    },
+    {
+      "id": 6,
+      "project_id": 1,
+      "title": "Implement JWT authentication",
+      "description": "Integrate express auth middleware with Bearer token decoding and role-based permissions.",
+      "status": "In Progress",
+      "priority": "High",
+      "assigned_to": 1,
+      "created_by": 2,
+      "due_date": "2026-10-14",
+      "labels": "Backend, Security",
+      "position": 1,
+      "created_at": "2026-10-11 09:00:00",
+      "updated_at": "2026-10-12 15:20:00"
+    },
+    {
+      "id": 7,
+      "project_id": 1,
+      "title": "Create project API endpoints",
+      "description": "Develop RESTful endpoints for project creation, listing, updates, and member association.",
+      "status": "In Progress",
+      "priority": "Medium",
+      "assigned_to": 4,
+      "created_by": 1,
+      "due_date": "2026-10-15",
+      "labels": "Backend, API",
+      "position": 2,
+      "created_at": "2026-10-11 09:30:00",
+      "updated_at": "2026-10-11 09:30:00"
+    },
+    {
+      "id": 8,
+      "project_id": 1,
+      "title": "Test project creation flow",
+      "description": "Perform end-to-end testing for project initialization, permission enforcement, and member invitations.",
+      "status": "Review",
+      "priority": "Medium",
+      "assigned_to": 5,
+      "created_by": 2,
+      "due_date": "2026-10-13",
+      "labels": "QA, Testing",
+      "position": 1,
+      "created_at": "2026-10-12 11:00:00",
+      "updated_at": "2026-10-13 09:45:00"
+    },
+    {
+      "id": 9,
+      "project_id": 1,
+      "title": "Create database tables",
+      "description": "Execute initial DDL migrations for users, projects, tasks, comments, and activity logs.",
+      "status": "Completed",
+      "priority": "High",
+      "assigned_to": 4,
+      "created_by": 2,
+      "due_date": "2026-10-09",
+      "labels": "Database",
+      "position": 1,
+      "created_at": "2026-10-08 09:00:00",
+      "updated_at": "2026-10-09 16:00:00"
+    },
+    {
+      "id": 10,
+      "project_id": 1,
+      "title": "Set up Express server",
+      "description": "Configure CORS, body parser, router structure, and global error handling middleware.",
+      "status": "Completed",
+      "priority": "High",
+      "assigned_to": 1,
+      "created_by": 1,
+      "due_date": "2026-10-08",
+      "labels": "Backend",
+      "position": 2,
+      "created_at": "2026-10-08 09:30:00",
+      "updated_at": "2026-10-08 17:00:00"
+    },
+    {
+      "id": 11,
+      "project_id": 1,
+      "title": "Create React project structure",
+      "description": "Initialize component folders, navigation sidebar, route hierarchy, and Tailwind CSS configuration.",
+      "status": "Completed",
+      "priority": "Medium",
+      "assigned_to": 3,
+      "created_by": 1,
+      "due_date": "2026-10-07",
+      "labels": "Frontend",
+      "position": 3,
+      "created_at": "2026-10-07 10:00:00",
+      "updated_at": "2026-10-07 18:00:00"
+    },
+    {
+      "id": 12,
+      "project_id": 1,
+      "title": "Configure MySQL connection pool",
+      "description": "Initialize mysql2 connection pool with keep-alive queries and environment variable binding.",
+      "status": "Completed",
+      "priority": "High",
+      "assigned_to": 4,
+      "created_by": 2,
+      "due_date": "2026-10-08",
+      "labels": "Database",
+      "position": 4,
+      "created_at": "2026-10-08 10:00:00",
+      "updated_at": "2026-10-08 17:30:00"
+    },
+    {
+      "id": 13,
+      "project_id": 2,
+      "title": "Setup Push Notification service",
+      "description": "Integrate Firebase Cloud Messaging or APNS pipeline for task alerts on iOS/Android.",
+      "status": "To Do",
+      "priority": "High",
+      "assigned_to": 1,
+      "created_by": 2,
+      "due_date": "2026-10-25",
+      "labels": "Mobile, Notifications",
+      "position": 1,
+      "created_at": "2026-10-09 10:00:00",
+      "updated_at": "2026-10-09 10:00:00"
+    },
+    {
+      "id": 14,
+      "project_id": 2,
+      "title": "Optimize image caching",
+      "description": "Implement local caching for task thumbnails and attachments in mobile client.",
+      "status": "In Progress",
+      "priority": "Medium",
+      "assigned_to": 2,
+      "created_by": 2,
+      "due_date": "2026-10-21",
+      "labels": "Mobile, Performance",
+      "position": 2,
+      "created_at": "2026-10-09 11:00:00",
+      "updated_at": "2026-10-09 11:00:00"
+    },
+    {
+      "id": 15,
+      "project_id": 3,
+      "title": "Audit lead import workflow",
+      "description": "Verify CSV parsing against customer table schema with duplicate detection logic.",
+      "status": "Review",
+      "priority": "Low",
+      "assigned_to": 5,
+      "created_by": 5,
+      "due_date": "2026-10-17",
+      "labels": "CRM, Import",
+      "position": 1,
+      "created_at": "2026-10-06 14:00:00",
+      "updated_at": "2026-10-06 14:00:00"
+    },
+    {
+      "id": 16,
+      "project_id": 1,
+      "title": "test cases",
+      "description": "",
+      "status": "Backlog",
+      "priority": "Medium",
+      "assigned_to": 4,
+      "created_by": 1,
+      "due_date": "2026-10-11",
+      "labels": "",
+      "position": 3,
+      "created_at": "2026-10-07 15:22:50",
+      "updated_at": "2026-10-07 15:22:50"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "task_id": 3,
+      "user_id": 2,
+      "content": "The basic login structure is completed. Form validation for password complexity is in place.",
+      "created_at": "2026-10-11 10:14:00",
+      "updated_at": "2026-10-11 10:14:00"
+    },
+    {
+      "id": 2,
+      "task_id": 3,
+      "user_id": 1,
+      "content": "I will complete the responsive design and ensure the focus state has proper contrast.",
+      "created_at": "2026-10-11 11:30:00",
+      "updated_at": "2026-10-11 11:30:00"
+    },
+    {
+      "id": 3,
+      "task_id": 6,
+      "user_id": 4,
+      "content": "Ensure tokens include the user role claim so controllers do not have to query DB repeatedly.",
+      "created_at": "2026-10-12 14:05:00",
+      "updated_at": "2026-10-12 14:05:00"
+    },
+    {
+      "id": 4,
+      "task_id": 6,
+      "user_id": 1,
+      "content": "Added role and email payload to the token signing function.",
+      "created_at": "2026-10-12 15:20:00",
+      "updated_at": "2026-10-12 15:20:00"
+    },
+    {
+      "id": 5,
+      "task_id": 8,
+      "user_id": 5,
+      "content": "Verified that non-admin members cannot delete the root project. Looks solid.",
+      "created_at": "2026-10-13 09:45:00",
+      "updated_at": "2026-10-13 09:45:00"
+    },
+    {
+      "id": 6,
+      "task_id": 14,
+      "user_id": 2,
+      "content": "2 days it will be completed soon",
+      "created_at": "2026-10-07 16:04:53",
+      "updated_at": "2026-10-07 16:04:53"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Task Assigned",
+      "message": "Rahul Sharma assigned you to task: Implement JWT authentication",
+      "type": "task",
+      "link": "/projects/1",
+      "is_read": false,
+      "created_at": "2026-10-12 10:00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "New Comment",
+      "message": "Rahul Sharma commented on Design login page",
+      "type": "comment",
+      "link": "/projects/1",
+      "is_read": false,
+      "created_at": "2026-10-11 10:15:00"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "Project Invitation",
+      "message": "You were added as Owner to Website Redesign",
+      "type": "project",
+      "link": "/projects/1",
+      "is_read": true,
+      "created_at": "2026-10-07 09:00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "title": "Task Review",
+      "message": "Task \"Test project creation flow\" was moved to Review",
+      "type": "task",
+      "link": "/projects/1",
+      "is_read": true,
+      "created_at": "2026-10-13 09:50:00"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "title": "Task Status Updated",
+      "message": "Bhavya moved task \"Design login page\" to In Progress",
+      "type": "task",
+      "link": "/projects/1",
+      "is_read": false,
+      "created_at": "2026-10-07 15:20:36"
+    },
+    {
+      "id": 6,
+      "user_id": 4,
+      "title": "Task Assigned",
+      "message": "Bhavya assigned you to task: test cases",
+      "type": "task",
+      "link": "/projects/1",
+      "is_read": false,
+      "created_at": "2026-10-07 15:22:50"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "project_id": 1,
+      "task_id": null,
+      "user_id": 1,
+      "action": "created project",
+      "details": "Created project \"Website Redesign\"",
+      "created_at": "2026-10-07 09:00:00"
+    },
+    {
+      "id": 2,
+      "project_id": 1,
+      "task_id": 3,
+      "user_id": 2,
+      "action": "created task",
+      "details": "Created task \"Design login page\"",
+      "created_at": "2026-10-10 10:00:00"
+    },
+    {
+      "id": 3,
+      "project_id": 1,
+      "task_id": 3,
+      "user_id": 2,
+      "action": "assigned task",
+      "details": "Assigned task to Bhavya",
+      "created_at": "2026-10-10 10:05:00"
+    },
+    {
+      "id": 4,
+      "project_id": 1,
+      "task_id": 6,
+      "user_id": 1,
+      "action": "moved task",
+      "details": "Moved task \"Implement JWT authentication\" to In Progress",
+      "created_at": "2026-10-12 09:30:00"
+    },
+    {
+      "id": 5,
+      "project_id": 1,
+      "task_id": 3,
+      "user_id": 1,
+      "action": "added comment",
+      "details": "Commented on \"Design login page\"",
+      "created_at": "2026-10-11 11:30:00"
+    },
+    {
+      "id": 6,
+      "project_id": 1,
+      "task_id": 8,
+      "user_id": 5,
+      "action": "moved task",
+      "details": "Moved task \"Test project creation flow\" to Review",
+      "created_at": "2026-10-13 09:40:00"
+    },
+    {
+      "id": 7,
+      "project_id": 1,
+      "task_id": 10,
+      "user_id": 1,
+      "action": "completed task",
+      "details": "Completed task \"Set up Express server\"",
+      "created_at": "2026-10-08 17:00:00"
+    },
+    {
+      "id": 8,
+      "project_id": 1,
+      "task_id": 3,
+      "user_id": 1,
+      "action": "moved task",
+      "details": "Moved task \"Design login page\" to In Progress",
+      "created_at": "2026-10-07 15:20:36"
+    },
+    {
+      "id": 9,
+      "project_id": 1,
+      "task_id": 16,
+      "user_id": 1,
+      "action": "created task",
+      "details": "Created task \"test cases\"",
+      "created_at": "2026-10-07 15:22:50"
+    },
+    {
+      "id": 10,
+      "project_id": 1,
+      "task_id": 16,
+      "user_id": 1,
+      "action": "assigned task",
+      "details": "Assigned task \"test cases\"",
+      "created_at": "2026-10-07 15:22:50"
+    },
+    {
+      "id": 11,
+      "project_id": 1,
+      "task_id": 17,
+      "user_id": 1,
+      "action": "created task",
+      "details": "Created task \"Test Deduplication Task\"",
+      "created_at": "2026-10-07 15:34:52"
+    },
+    {
+      "id": 12,
+      "project_id": 1,
+      "task_id": null,
+      "user_id": 1,
+      "action": "deleted task",
+      "details": "Deleted task \"Test Deduplication Task\"",
+      "created_at": "2026-10-07 15:35:02"
+    },
+    {
+      "id": 13,
+      "project_id": 2,
+      "task_id": 14,
+      "user_id": 2,
+      "action": "added comment",
+      "details": "Commented on \"Optimize image caching\"",
+      "created_at": "2026-10-07 16:04:53"
+    },
+    {
+      "id": 14,
+      "project_id": 5,
+      "task_id": null,
+      "user_id": 1,
+      "action": "created project",
+      "details": "Created project \"web development\"",
+      "created_at": "2026-10-10 10:38:28"
+    }
+  ]
+}
