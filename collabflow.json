@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "name": "Joshna",
-      "email": "joshna@collabflow.io",
+      "name": "Bhavya",
+      "email": "bhavya@collabflow.io",
       "password_hash": "$2a$10$8K1p/a0dL.qYj64hC641p.aF3d32zOeq2sKk0bKz3ZpLp8qP611q.",
       "role": "Full Stack Engineer & Intern",
       "avatar_url": null,
